@@ -1,0 +1,30 @@
+/* for small-5 */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+  }
+  
+  li a {
+    display: block;
+    color:blue;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li {
+    text-align: center;
+    border-bottom: 1px solid blue;
+  }
+  
+  li a.active {
+    background-color: orange;
+    color: blue;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: orange;
+    color: blue;
+  }
