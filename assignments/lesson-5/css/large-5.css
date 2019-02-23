@@ -18,3 +18,9 @@ ul {
     padding: 8px;
     background-color: #dddddd;
   }
+
+  @media screen and (max-width: 600px) {
+    #div {
+      display: none;
+    }
+  }
