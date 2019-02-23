@@ -10,16 +10,16 @@ ul {
   }
   
   li {
-    float: left;
+    float: center;
   }
   
   li a {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: blue;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 600px) {
     #div {
       display: none;
     }
