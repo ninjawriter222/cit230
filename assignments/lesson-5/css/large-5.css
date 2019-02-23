@@ -19,8 +19,11 @@ ul {
     background-color: blue;
   }
 
-  @media screen and (min-width: 600px) {
-    #div {
+  @media screen and (max-width: 600px) {
+    div {
+      display: none;
+    }
+    li a{
       display: none;
     }
   }
