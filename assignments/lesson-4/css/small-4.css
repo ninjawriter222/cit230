@@ -1,10 +1,13 @@
 /* for small-5 */
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #f1f1f1;
-    border: 1px solid #555;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   }
   
   li a {
@@ -24,7 +27,7 @@
     color: blue;
   }
   
-  li a:hover:not(.active) {
-    background-color: orange;
-    color: blue;
+  li a:hover {
+    background-color: blue;
+    color: orange;
   }
