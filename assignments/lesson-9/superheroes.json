@@ -1,0 +1,39 @@
+{
+    "squadName" : "Super hero squad",
+    "homeTown" : "Metro City",
+    "formed" : 2008,
+    "secretBase" : "Super Secret Underground Headquarters",
+    "active" : true,
+    "members" : [
+      {
+        "name" : "Boots",
+        "age" : 34,
+        "secretIdentity" : "Devin Poe",
+        "powers" : [
+          "Gravity Manipulation",
+          "Black Hole Aspect Generation",
+          "Physical Streath Above Olymic Athlete"
+        ]
+      },
+      {
+        "name" : "Sgt. Ogre",
+        "age" : 33,
+        "secretIdentity" : "Andrew Biggs",
+        "powers" : [
+          "Heat Manipulation",
+          "Flame Generation",
+          "Steam Powered Reflexes"
+        ]
+      },
+      {
+        "name" : "Power Line",
+        "age" : 32,
+        "secretIdentity" : "Josh Moris",
+        "powers" : [
+          "Electricity Generation",
+          "Computer Hacking",
+          "Electricity Manipulation"
+        ]
+      }
+    ]
+  }
