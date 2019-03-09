@@ -1,0 +1,78 @@
+<html lang="en-us">
+      <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">   
+          <title>CIT 230 Assignment Portal | Devin Poe| BYU-Idaho</title>
+          <meta name="description" content="Assignment web page for Devin Poe at Brigham Young University-Idaho, student in CIT 230: Web Frontend Development.">
+
+          <link rel="stylesheet" href="css/normalize.css">
+          <link rel="stylesheet" href="css/main.css">
+          <link rel="stylesheet" href="css/medium.css">
+          <link rel="stylesheet" href="css/large.css">
+           
+      </head>
+      <body>
+    <header>
+        <header class=" clearfix">
+            <div class="subheading">
+            <figure class="logo">
+                <img src="images/download.jpg" alt="logo " srcset="images/download.jpg 1x, images/download.jpg 2x, images/download.jpg 3x">
+            </figure>
+                <div class="text">
+                    <h1>Current Weather Forcast</h1>
+                    <h2>Preston City Weather</h2>
+                </div>
+     
+            </div>
+            
+        </header> 
+      <nav class="clearfix">
+          <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="/Assignments/Lesson-9/index.html">Home</a></li>
+            <li><a href="/Assignments/lesson-9/preston-9.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="/Assignments/lesson-8/stormcenter.html">Storm Center</a></li>
+            <li><a href="/Assignments/lesson-7/gallery.html">Gallery</a></li>
+        </ul>		
+      </nav>
+        <br>
+        
+      <main>
+          <div class="homepage">
+            <h1>Forecast Now Weather Center</h1>
+            <p>Welcome to Forecast Now weather center, your information site</p>
+            </div>  
+                <figure class="homepagephoto">
+                    <img src= "images/5cb46f22-ca92-415d-aea3-31a372b62e17.hw1.jpg" alt="homepage photo" sizes="50vw" 
+                        srcset= "Images/agriculture200.jpg 200w,
+                                 Images/agriculture500.jpg 500w,
+                                 Images/agriculture800.jpg 800w,
+                                 Images/agriculture1100.jpg 1100w">
+                </figure>
+            <section class="townsinfo">
+             </section>
+            <figure class="RandV">
+                <img src= "images/Programs_Recreation-And-Visitor-Services_Idaho_Looking-west-near-lemhi_Hero.gif" alt="homepage photo RandV" sizes="50vw" 
+                     srcset= "images/Programs_Recreation-And-Visitor-Services_Idaho_Looking-west-near-lemhi_Hero.gif 200w,
+                             images/Programs_Recreation-And-Visitor-Services_Idaho_Looking-west-near-lemhi_Hero.gif 500w,
+                             images/Programs_Recreation-And-Visitor-Services_Idaho_Looking-west-near-lemhi_Hero.gif 800w,
+                             images/Programs_Recreation-And-Visitor-Services_Idaho_Looking-west-near-lemhi_Hero.gif1100w">
+             </figure>         
+      </main>
+
+      <footer class="clearfix">
+        <aside> <p>
+                  Forecast Now
+                 <br>
+                </p>
+        </aside>
+        <p>&copy;2019 | All Rights Reserved | Forecast Now |  <span id="currentdate">Current Date Placeholder</span>
+        </p>
+      </footer>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/homeP.js"></script>
+    </body>
+    </html>
