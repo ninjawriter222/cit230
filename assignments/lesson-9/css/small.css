@@ -2,7 +2,7 @@
 
     header {
     padding: .5rem 0%;
-    background-color: #99e6ff;
+    background-color: orange;
     position: static;
     font-size: 1.5em;
  
@@ -35,7 +35,7 @@
      flex-flow: column nowrap;
      text-align: center;
      padding: .6rem;
-     border: 2px solid  #191970;
+     border: 2px solid black;
      border-radius: .3em;
      width: 100%;
 
@@ -47,16 +47,16 @@
     
     table {
       border-collapse: collapse;
-      border: 2px solid #191970;
+      border: 2px solid black;
       letter-spacing: 1px;
       font-size: 1rem;
 
     }
-    thead { background-color: #4CAF50;
-        color:#eee;
+    thead { background-color: purple;
+        color:red;
     }
     td, th {
-        border: 1px solid #191970;
+        border: 1px solid black;
         padding: 0.5em;
  
     }
@@ -70,7 +70,7 @@
         grid-template-columns: 1fr 1fr;
 	}
     	div.theGallery figure:hover {
-		box-shadow: 5px 10px 10px gray;
+		box-shadow: 5px 10px 10px black;
         opacity: .5;
         border-radius: 5px 50px
 }
@@ -97,14 +97,14 @@ div.theGallery figure img{
       .townsinfo h2 {
         font-family: "Comic Sans MS", cursive, sans-serif;
         font-size: 3em;
-        color: #000000;
+        color: black;
         margin: 1em;
         text-align: center;
     }
      .townsinfo h3 {
          font-family: "Comic Sans MS", cursive, sans-serif;
         font-size: 2em;
-        color: #000000;
+        color: black;
         margin: 0.7em;
          text-align: center;
     }
