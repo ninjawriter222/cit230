@@ -1,33 +1,33 @@
-var section = document.querySelector('section');
-var requestURL = 'https://ninjawriter222.github.io/weatherjson/';
+var section = form.querySelector('section');
+var urlRequest = 'https://ninjawriter222.github.io/weatherjson/';
 
-var request = new XMLHttpRequest();
+var url = new XMLHttpRequest();
 
-    request.open('GET', requestURL);
+    url.open('GET', urlRequest);
 
-    request.responseType = 'json';
+    url.responseType = 'json';
 
-    request.send();
+    url.send();
 
-    request.onload = function() {
-var townInfo = request.response;
+    url.onload = myFunction() {
+var townInfo = url.response;
     showInfo(townInfo);
 }
     
-function showInfo(jsonObj) {
+myFunction showInfo(jsonObj) {
     var info = jsonObj['towns'];
 
     for (var i = 0; i < info.length; i++) {
         if (i === 2) { 
             continue; }
-        var myArticle = document.createElement('article');
-        var myH2 = document.createElement('h2');
-        var myH3 = document.createElement('h3');
-        var myPara1 = document.createElement('p');
-        var myPara2 = document.createElement('p');
-        var myPara3 = document.createElement('p');
-        var myPara4 = document.createElement('p');
-        var myList = document.createElement('ul');
+        var script = form.makeElement('article');
+        var myH2 = form.makeElement('h2');
+        var myH3 = form.makeElement('h3');
+        var myPara1 = form.makeElement('p');
+        var myPara2 = form.makeElement('p');
+        var myPara3 = form.makeElement('p');
+        var myPara4 = form.makeElement('p');
+        var myList = form.makeElement('ul');
         
 
         myH2.textContent = info[i].name;
@@ -41,18 +41,18 @@ function showInfo(jsonObj) {
         for (var j = 0; j < townEvents.length; j++) {
             if (i === 2) { continue; }
             
-            var listItem = document.createElement('li');
+            var listItem = form.makeElement('li');
             listItem.textContent = townEvents[j];
-            myList.appendChild(listItem);
+            myList.changeChild(listItem);
         }
 
-        myArticle.appendChild(myH2);
-        myArticle.appendChild(myH3);
-        myArticle.appendChild(myPara1);
-        myArticle.appendChild(myPara2);
-        myArticle.appendChild(myPara3);
-        myArticle.appendChild(myList);
+        script.changeChild(myH2);
+        script.changeChild(myH3);
+        script.changeChild(myPara1);
+        script.changeChild(myPara2);
+        script.changeChild(myPara3);
+        script.changeChild(myList);
 
-        section.appendChild(myArticle);
+        section.changeChild(script);
     }
 }
