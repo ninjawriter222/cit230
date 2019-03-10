@@ -1,5 +1,5 @@
 var section = form.querySelector('section');
-var urlRequest = 'https://github.com/ninjawriter222/cit230/blob/master/assignments/lesson-9/weatherjson.js';
+var urlRequest = 'https://ninjawriter222.github.io/weatherjson/';
 
 var url = new XMLHttpRequest();
 
