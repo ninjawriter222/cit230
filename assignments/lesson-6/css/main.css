@@ -1,0 +1,110 @@
+
+
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  font-family: 'Cutive', serif;
+}
+h1, h2, h3 {
+    font-family: 'Sanchez', serif;
+}
+
+header {
+    padding: .5rem 2%;
+    background-color: orange;
+    font-family: 'Cutive', serif;
+}
+header h1 {margin: 0;}
+header h2 {margin: 0; font-weight: normal;}
+header figure.logo {
+    float: left;
+    margin: 0 2% 0 0;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: gray;
+        }
+
+
+nav {
+  background-color:orange;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    }
+nav ul li {
+    text-align: center;
+    border-bottom: 1px solid black;
+    }
+nav ul li a {
+   display: block;
+    background-color: red;
+    color: black;
+    border-left: 1px solid gray;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+    }
+nav ul li:first-child a {border-left: none;}
+
+nav ul li a:hover {
+    background-color: blue;
+    color: orange;
+    }
+nav ul li.active a {
+    background-color: blue;
+    color: orange;
+    }
+nav ul.hide {display: none;}
+
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+main figure.prestonphoto {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+main figure.sunny {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+main figure.summer {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+main figure.sunny img { width: 100%; margin: 0;}
+main figure.sunny figcaption{text-align: center; font-size: .75rem}
+
+main figure.prestonphoto img { width: 100%; margin: 0;}
+main figure.prestonphoto figcaption{text-align: center; font-size: .75rem}
+
+main figure.summer img { width: 100%; margin: 0;}
+main figure.summer figcaption{text-align: center; font-size: .75rem}
+
+footer {
+ background-color: red;
+    padding: .5rem 2%;
+    text-align: center;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

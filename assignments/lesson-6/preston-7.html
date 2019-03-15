@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+        <title>Preston Weather</title>
+        <meta name="description" content="weather site project">
+      
+       <link rel="stylesheet" href="css/main.css">
+       <link rel="stylesheet" href="css/medium.css">
+       <link rel="stylesheet" href="css/large.css">
+       <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sanchez">
+       <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Cutive">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Cinzel">
+      <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Josefin+Slab">
+      
+  </head>
+    
+    
+<body>
+
+    <header class=" clearfix">
+        <figure class="logo">
+            <img src="images/logo.png" alt="logo " srcset="images/logo.png 1x, images/logo.png 2x, images/logo.png 3x">
+        </figure>
+ <h1>Forecast Now</h1>
+        <div class="subheading"></div>
+        <h2>Preston City Weather</h2>
+    </header>
+
+  <nav class="clearfix">
+      <button onclick="toggleMenu()">&#8801;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="#">Home</a></li>
+    	<li class="active"><a href="preston-6.html">Preston</a></li>
+    	<li><a href="#">Soda Springs</a></li>
+    	<li><a href="#">Fish Haven</a></li>
+    	<li><a href="#">Storm Center</a></li>
+    	<li><a href="#">gallery.html</a></li>
+    </ul>		
+  </nav>
+    
+  <main class="clearfix">
+    <div class="city">
+      <h2>Preston</h2>
+      <h5>Weather</h5>
+             <figure class="Prestonphoto">
+                <img src= "images.prestonphoto.jpg" alt="Preston Photo" sizes="50vw" 
+                    srcset= "Images/prestonphoto.jpg 200w,
+                     images/prestonphoto.jpg 500w,
+                     images/prestonphoto.jpg 800w,
+                     images/prestonphoto.jpg 1100w">
+                <figcaption>Preston</figcaption>
+            </figure>
+      
+      <p>City of Napoleon Dynamite</p>
+      <p></p>
+      <br>
+           <br>
+
+      <h2>Forecast</h2>
+            
+        <section class="summary">
+            <h3>Weather Summary</h3>    
+      <div class="highlow">
+        <p>High: 89&deg;</p>
+        <p>Low:  56&deg;</p>
+      </div>
+      <div class="current">
+          <figure class="sunnyphoto">
+      <img src= "images/sunny.jpg" alt="Sunny day" sizes="50vw" 
+            srcset= "Images/sunny.jpg 200w,
+                     Images/sunny.jpg 500w,
+                     Images/sunny.jpg 800w,
+                     Images/sunny.jpg 1100w">
+            <figcaption> Summer</figcaption>
+        </figure>
+        
+      </div>   
+      <div class="conditions">
+        <p>Precipitation: 0%</p>  
+        <p>Wind Speed: 5 mph SW</p>  
+        <p>Wind Chill:
+      </div>           
+    </section>
+        
+    <section class="forecast">
+      <h3>Ten Day Forecast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+	</thead>
+        <tbody>  
+          <tr>
+            <td>90&deg;F</td>
+            <td>89&deg;F</td>
+            <td>88&deg;F</td>
+            <td>72&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>80&deg;F</td>
+            <td>85&deg;F</td>
+            <td>83&deg;F</td>
+            <td>88&deg;F</td>
+          </tr>
+	</tbody>
+      </table>
+    </section>
+      <h2>Soda Springs</h2>
+      <p></p>
+  </div>
+
+    <article>
+        <h2>Preston in Summer</h2>
+        <figure class="summer">
+      <img src= "Images/summer.jpg" alt="Summer Photo" sizes="50vw" 
+            srcset= "Images/summer.jpg 200w,
+                     Images/summer.jpg 500w,
+                     Images/summer.jpg 800w,
+                     Images/summer.jpg 1100w">
+            
+            <figcaption> Enjoy summer</figcaption>
+        </figure>
+        <p></p>
+    </article>		  
+  
+  </main>
+    
+  <footer class="clearfix">
+    <section>
+      Contact information placeholder
+      123-456-7890
+      123 Real St. Preston City, US 12345
+      Google Map
+    </section>
+    <section class="footer-bar">&copy;2018 | All Rights Reserved | Devin Poe's Weather Site |  <span id="currentdate">Current Date Placeholder</span>
+    </section>
+  </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+
+</body>
+</html>
