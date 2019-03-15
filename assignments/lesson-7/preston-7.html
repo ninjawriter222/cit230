@@ -3,7 +3,7 @@
   <head> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">   
-        <title>Franklin Weather</title>
+        <title>Preston Weather</title>
         <meta name="description" content="weather site project">
       
        <link rel="stylesheet" href="css/main.css">
@@ -33,19 +33,19 @@
     </header>
 
   <nav class="clearfix">
-      <button onclick="toggleMenu()">&#9776;</button>
+      <button onclick="toggleMenu()">&#8801;</button>
     <ul id="primaryNav" class="hide">
     	<li><a href="#">Home</a></li>
-    	<li class="active"><a href="#">Preston</a></li>
+    	<li class="active"><a href="preston-7.html">Preston</a></li>
     	<li><a href="#">Soda Springs</a></li>
     	<li><a href="#">Fish Haven</a></li>
     	<li><a href="#">Storm Center</a></li>
-    	<li><a href="#">Gallery</a></li>
+    	<li><a href="#">gallery.html</a></li>
     </ul>		
   </nav>
     
   <main class="clearfix">
-    <div class="main">
+    <div class="city">
       <h2>Preston</h2>
       <h5>Weather</h5>
              <figure class="Prestonphoto">
@@ -64,11 +64,11 @@
 
       <h2>Forecast</h2>
             
-        <section class="preston">
+        <section class="summary">
             <h3>Weather Summary</h3>    
       <div class="highlow">
-        <p>High:</p>  
-        <p>Low:</p>  
+        <p>High: 89&deg;</p>
+        <p>Low:  56&deg;</p>
       </div>
       <div class="current">
           <figure class="sunnyphoto">
@@ -82,8 +82,9 @@
         
       </div>   
       <div class="conditions">
-        <p>Precipitation:</p>  
-        <p>Wind Speed:</p>  
+        <p>Precipitation: 0%</p>  
+        <p>Wind Speed: 5 mph SW</p>  
+        <p>Wind Chill:  <span id="windChill"> Current Wind Chill Placeholder</span></p>
       </div>           
     </section>
         
@@ -152,6 +153,7 @@
   </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
 
 </body>
 </html>
