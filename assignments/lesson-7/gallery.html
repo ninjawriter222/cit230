@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">   
+      <title>Weather Gallery</title>
+      <meta name="description" content="Assignment web page for Ronald Silva, student in CIT 230: Web Frontend Development at Brigham Young University-Idaho, Weather Gallery">
+    
+     <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/medium.css">
+     <link rel="stylesheet" href="css/large.css">
+     <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Cutive" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Henny+Penny" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    
+    
+</head>
+    
+    
+<body>
+
+     <header class=" clearfix">
+        <div class="subheading">
+        <figure class="logo">
+            <img src="images/logo.png" alt="logo" srcset="images/logo.png1x, images/logo.png 2x, images/logo.png 3x">
+        </figure>
+            <div class="text">
+            <h1>Devin Poe's Weather Site</h1>
+        <h2>Preston City Weather</h2></div>
+ 
+        </div>
+        
+       </header> 
+  
+  <nav class="clearfix">
+      <button onclick="toggleMenu()">&#8801;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="/assignments/lesson-9/index.html">Home</a></li>
+    	<li><a href="/assignments/lesson-7/preston-7.html">Preston</a></li>
+    	<li><a href="#">Greenville</a></li>
+    	<li><a href="#">Springfield</a></li>
+    	<li><a href="/assignments/lesson-8/stormcenter.html">Storm Center</a></li>
+    	<li class="active"><a href="/assignments/lesson-7/gallery.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    <br>
+
+  <main >
+      
+    <h1>Weather Gallery</h1>
+
+    <div class="theGallery">
+        <figure>
+        <img src= "images/NiceWeather.jpg" alt="Beach Calm">
+                <figcaption>Calm Beach</figcaption>
+            </figure>
+
+        <figure>
+                <img src= "images/SnowyWeather.jpg" alt="Cold Weather" >
+                <figcaption>Cold Wheather</figcaption>
+        </figure>
+
+        <figure>
+                <img src= "images/Bungalow.jpg" alt="Bungalow">
+                <figcaption>Caribean Bungalow</figcaption>
+        </figure>
+
+        <figure>
+                <img src= "images/waterfall.jpg" alt="Colourful Fall">
+                <figcaption>Colorful Fall</figcaption>
+        </figure>
+
+        <figure>
+                <img src= "images/Mountain.jpg" alt="Snowy Mountain">
+                <figcaption>Snowy Mountains</figcaption>
+        </figure>
+
+        <figure>
+               <img src= "images/Spring.jpg" alt="Spring Franklin">
+                <figcaption>Spring Season</figcaption>
+        </figure>
+        </div>
+
+    </main>
+
+    
+  <footer class="clearfix">
+    <aside> <p>
+        Contact information placeholder
+        123-456-7890
+        123 Real St. Preston City, US 12345</p>
+    </aside>
+    <section class="footer-bar">&copy;2018 | All Rights Reserved | Devin Poe's Weather Site |  <span id="currentdate">Current Date Placeholder</span>
+    </p>
+  </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+</body>
+</html>

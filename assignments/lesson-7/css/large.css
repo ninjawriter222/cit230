@@ -3,7 +3,8 @@
     nav ul li a { padding: .6rem 1rem;}
     
     
-  /* Gallery*/
+  section.forecast {
+         max-width: 98%;}
 
 	div.theGallery figure:hover {
 		box-shadow: 5px 10px 10px gray;
@@ -16,11 +17,4 @@ div.theGallery figure img{
 div.theGallery {
   		grid-template-columns: 1fr 1fr 1fr;
 	}
-    
-    /*Home Page*/
-    
-    .townsinfo {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-     
 }
