@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+        <title>Fish Haven Weather</title>
+        <meta name="description" content="weather site project">
+      
+       <link rel="stylesheet" href="css/main.css">
+       <link rel="stylesheet" href="css/medium.css">
+       <link rel="stylesheet" href="css/large.css">
+       <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sanchez">
+       <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Cutive">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Cinzel">
+      <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Josefin+Slab">
+      
+  </head>
+    
+    
+<body>
+
+    <header class=" clearfix">
+        <figure class="logo">
+            <img src="images/logo.png" alt="logo " srcset="images/logo.png 1x, images/logo.png 2x, images/logo.png 3x">
+        </figure>
+ <h1>Devin Poe's Weather Site</h1>
+        <div class="subheading"></div>
+        <h2>Fish Haven Weather</h2>
+    </header>
+
+  <nav class="clearfix">
+      <button onclick="toggleMenu()">&#8801;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="index.html">Home</a></li>
+    	<li class="active"><a href="fishhaven.html">Fish Haven</a></li>
+    	<li><a href="sodaSprings.html">Soda Springs</a></li>
+    	<li><a href="preston.html">Preston</a></li>
+    	<li><a href="stromcenter.html">Storm Center</a></li>
+    	<li><a href="#">gallery.html</a></li>
+    </ul>		
+  </nav>
+    
+  <main class="clearfix">
+    <div class="city">
+      <h2>Fish Haven</h2>
+      <h5>Weather</h5>
+             <figure class="Fish Haven">
+                <img src= "images.fishhaven.jpg" alt="Fish Haven Photo" sizes="50vw" 
+                    srcset= "Images/fishhaven.jpg 200w,
+                     images/fishhaven.jpg 500w,
+                     images/fishhaven.jpg 800w,
+                     images/fishhaven.jpg 1100w">
+                <figcaption>Fish Haven</figcaption>
+            </figure>
+      
+      <p>City of Fish Haven</p>
+      <p></p>
+      <br>
+           <br>
+
+      <h2>Forecast</h2>
+            
+        <section class="summary">
+      
+      
+      
+      
+      
+      
+      
+      <section class="summary">
+        <h3>Weather Summary for <span id="name"></span></h3>   
+        <br>
+    <div class="current">
+        <p>Current Temperature : <span id="current"> 50 </span>&deg;F</p>
+        <p>Condition: <span id="description"> clear </span></p>
+    </div>
+        
+    <div class="highlow">
+        <p>High: <span id="hightemp"> 100 </span>&deg;F</p>
+        <p>Low: <span id="lowtemp"> 10 </span>&deg;F</p>
+    </div>
+        <br>
+    <div class="conditions">
+    <p>Wind Speed: <span id="windspeed"> 5</span> mph</p>
+    </div>  
+  </section>
+      
+
+
+
+
+
+
+
+
+    </section>
+      <h2>Fish Haven</h2>
+      <p></p>
+  </div>
+
+    <article>
+        
+    </article>		  
+  
+  </main>
+    
+  <footer class="clearfix">
+    <section>
+      Contact information placeholder
+      123-456-7890
+      123 Real St. Fish Haven City, US 12345
+    </section>
+    <section class="footer-bar">&copy;2018 | All Rights Reserved | Devin Poe's Weather Site |  <span id="currentdate">Current Date Placeholder</span>
+    </section>
+  </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weatherjson.js"></script>
+
+</body>
+</html>

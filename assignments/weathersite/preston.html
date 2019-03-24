@@ -35,11 +35,11 @@
   <nav class="clearfix">
       <button onclick="toggleMenu()">&#8801;</button>
     <ul id="primaryNav" class="hide">
-    	<li><a href="#">Home</a></li>
-    	<li class="active"><a href="preston-7.html">Preston</a></li>
-    	<li><a href="#">Soda Springs</a></li>
-    	<li><a href="#">Fish Haven</a></li>
-    	<li><a href="#">Storm Center</a></li>
+    	<li><a href="index.html">Home</a></li>
+    	<li class="active"><a href="preston.html">Preston</a></li>
+    	<li><a href="sodaSprings.html">Soda Springs</a></li>
+    	<li><a href="fishhaven.html">Fish Haven</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
     	<li><a href="#">gallery.html</a></li>
     </ul>		
   </nav>
@@ -65,78 +65,46 @@
       <h2>Forecast</h2>
             
         <section class="summary">
-            <h3>Weather Summary</h3>    
-      <div class="highlow">
-        <p>High: 89&deg;</p>
-        <p>Low:  56&deg;</p>
-      </div>
-      <div class="current">
-          <figure class="sunnyphoto">
-      <img src= "images/sunny.jpg" alt="Sunny day" sizes="50vw" 
-            srcset= "Images/sunny.jpg 200w,
-                     Images/sunny.jpg 500w,
-                     Images/sunny.jpg 800w,
-                     Images/sunny.jpg 1100w">
-            <figcaption> Summer</figcaption>
-        </figure>
+      
+      
+      
+      
+      
+      
+      
+      <section class="summary">
+        <h3>Weather Summary for <span id="name"></span></h3>   
+        <br>
+    <div class="current">
+        <p>Current Temperature : <span id="current"> 50 </span>&deg;F</p>
+        <p>Condition: <span id="description"> clear </span></p>
+    </div>
         
-      </div>   
-      <div class="conditions">
-        <p>Precipitation: 0%</p>  
-        <p>Wind Speed: 5 mph SW</p>  
-        <p>Wind Chill:  <span id="windChill"> Current Wind Chill Placeholder</span></p>
-      </div>           
-    </section>
-        
-    <section class="forecast">
-      <h3>Ten Day Forecast</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Day 1</th>
-            <th>Day 2</th>
-            <th>Day 3</th>
-            <th>Day 4</th>
-            <th>Day 5</th>
-            <th>Day 6</th>
-            <th>Day 7</th>
-            <th>Day 8</th>
-            <th>Day 9</th>
-            <th>Day 10</th>
-          </tr>
-	</thead>
-        <tbody>  
-          <tr>
-            <td>90&deg;F</td>
-            <td>89&deg;F</td>
-            <td>88&deg;F</td>
-            <td>72&deg;F</td>
-            <td>75&deg;F</td>
-            <td>72&deg;F</td>
-            <td>80&deg;F</td>
-            <td>85&deg;F</td>
-            <td>83&deg;F</td>
-            <td>88&deg;F</td>
-          </tr>
-	</tbody>
-      </table>
+    <div class="highlow">
+        <p>High: <span id="hightemp"> 100 </span>&deg;F</p>
+        <p>Low: <span id="lowtemp"> 10 </span>&deg;F</p>
+    </div>
+        <br>
+    <div class="conditions">
+    <p>Wind Speed: <span id="windspeed"> 5</span> mph</p>
+    </div>  
+  </section>
+      
+
+
+
+
+
+
+
+
     </section>
       <h2>Soda Springs</h2>
       <p></p>
   </div>
 
     <article>
-        <h2>Preston in Summer</h2>
-        <figure class="summer">
-      <img src= "Images/summer.jpg" alt="Summer Photo" sizes="50vw" 
-            srcset= "Images/summer.jpg 200w,
-                     Images/summer.jpg 500w,
-                     Images/summer.jpg 800w,
-                     Images/summer.jpg 1100w">
-            
-            <figcaption> Enjoy summer</figcaption>
-        </figure>
-        <p></p>
+        
     </article>		  
   
   </main>
@@ -154,6 +122,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weatherjson.js"></script>
 
 </body>
 </html>
